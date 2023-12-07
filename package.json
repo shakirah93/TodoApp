@@ -1,7 +1,6 @@
 {
   "name": "mytodo_application",
   "version": "0.1.0",
-  "homepage": "https://shakirah93.github.io/TodoApp",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -19,8 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "npm run build"
   },
   "eslintConfig": {
     "extends": [
